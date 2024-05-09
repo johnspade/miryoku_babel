@@ -500,7 +500,6 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 | U_NUM    | Num    |
 | U_SYM    | Sym    |
 | U_FUN    | Fun    |
-| U_GAME   | Game   |
 
 
 **** symbol-names
