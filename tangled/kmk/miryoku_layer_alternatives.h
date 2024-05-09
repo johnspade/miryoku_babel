@@ -56,7 +56,7 @@ U_NP,              U_NP,              U_LT(U_FUN,KC.DEL),U_LT(U_NUM,KC.BSPC),U_L
 
 #define MIRYOKU_ALTERNATIVES_BASE_QWERTY_FLIP \
 KC.Q,              KC.W,              KC.E,              KC.R,              KC.T,              KC.Y,              KC.U,              KC.I,              KC.O,              KC.P,              \
-U_MT(KC.A,KC.LGUI),U_MT(KC.S,KC.LALT),U_MT(KC.D,KC.LCTL),U_MT(KC.F,KC.LSFT),KC.G,              KC.H,              U_MT(KC.J,KC.LSFT),U_MT(KC.K,KC.LCTL),U_MT(KC.L,KC.LALT),U_MT(KC.QUOT,KC.LGUI),\
+U_MT(KC.A,KC.LGUI),U_MT(KC.S,KC.LALT),U_MT(KC.D,KC.LCTL),U_MT(KC.F,KC.LSFT),KC.G,              KC.H,              U_MT(KC.J,KC.LSFT),U_MT(KC.K,KC.LCTL),U_MT(KC.L,KC.LALT),U_MT(KC.COLN,KC.LGUI),\
 U_LT(U_BUTTON,KC.Z),U_MT(KC.X,KC.RALT),KC.C,              KC.V,              KC.B,              KC.N,              KC.M,              KC.COMM,           U_MT(KC.DOT,KC.RALT),U_LT(U_BUTTON,KC.SLSH),\
 U_NP,              U_NP,              U_LT(U_FUN,KC.DEL),U_LT(U_NUM,KC.BSPC),U_LT(U_SYM,KC.ENT),U_LT(U_MOUSE,KC.TAB),U_LT(U_NAV,KC.SPC),U_LT(U_MEDIA,KC.ESC),U_NP,              U_NP
 
@@ -116,7 +116,7 @@ U_NP,              U_NP,              U_LT(U_MEDIA,KC.ESC),U_LT(U_NAV,KC.SPC),U_
 
 #define MIRYOKU_ALTERNATIVES_BASE_QWERTY \
 KC.Q,              KC.W,              KC.E,              KC.R,              KC.T,              KC.Y,              KC.U,              KC.I,              KC.O,              KC.P,              \
-U_MT(KC.A,KC.LGUI),U_MT(KC.S,KC.LALT),U_MT(KC.D,KC.LCTL),U_MT(KC.F,KC.LSFT),KC.G,              KC.H,              U_MT(KC.J,KC.LSFT),U_MT(KC.K,KC.LCTL),U_MT(KC.L,KC.LALT),U_MT(KC.QUOT,KC.LGUI),\
+U_MT(KC.A,KC.LGUI),U_MT(KC.S,KC.LALT),U_MT(KC.D,KC.LCTL),U_MT(KC.F,KC.LSFT),KC.G,              KC.H,              U_MT(KC.J,KC.LSFT),U_MT(KC.K,KC.LCTL),U_MT(KC.L,KC.LALT),U_MT(KC.COLN,KC.LGUI),\
 U_LT(U_BUTTON,KC.Z),U_MT(KC.X,KC.RALT),KC.C,              KC.V,              KC.B,              KC.N,              KC.M,              KC.COMM,           U_MT(KC.DOT,KC.RALT),U_LT(U_BUTTON,KC.SLSH),\
 U_NP,              U_NP,              U_LT(U_MEDIA,KC.ESC),U_LT(U_NAV,KC.SPC),U_LT(U_MOUSE,KC.TAB),U_LT(U_SYM,KC.ENT),U_LT(U_NUM,KC.BSPC),U_LT(U_FUN,KC.DEL),U_NP,              U_NP
 
@@ -177,7 +177,7 @@ U_NP,              U_NP,              KC.DEL,            KC.BSPC,           KC.E
 
 #define MIRYOKU_ALTERNATIVES_TAP_QWERTY_FLIP \
 KC.Q,              KC.W,              KC.E,              KC.R,              KC.T,              KC.Y,              KC.U,              KC.I,              KC.O,              KC.P,              \
-KC.A,              KC.S,              KC.D,              KC.F,              KC.G,              KC.H,              KC.J,              KC.K,              KC.L,              KC.QUOT,           \
+KC.A,              KC.S,              KC.D,              KC.F,              KC.G,              KC.H,              KC.J,              KC.K,              KC.L,              KC.COLN,           \
 KC.Z,              KC.X,              KC.C,              KC.V,              KC.B,              KC.N,              KC.M,              KC.COMM,           KC.DOT,            KC.SLSH,           \
 U_NP,              U_NP,              KC.DEL,            KC.BSPC,           KC.ENT,            KC.TAB,            KC.SPC,            KC.ESC,            U_NP,              U_NP
 
@@ -237,7 +237,7 @@ U_NP,              U_NP,              KC.ESC,            KC.SPC,            KC.T
 
 #define MIRYOKU_ALTERNATIVES_TAP_QWERTY \
 KC.Q,              KC.W,              KC.E,              KC.R,              KC.T,              KC.Y,              KC.U,              KC.I,              KC.O,              KC.P,              \
-KC.A,              KC.S,              KC.D,              KC.F,              KC.G,              KC.H,              KC.J,              KC.K,              KC.L,              KC.QUOT,           \
+KC.A,              KC.S,              KC.D,              KC.F,              KC.G,              KC.H,              KC.J,              KC.K,              KC.L,              KC.COLN,           \
 KC.Z,              KC.X,              KC.C,              KC.V,              KC.B,              KC.N,              KC.M,              KC.COMM,           KC.DOT,            KC.SLSH,           \
 U_NP,              U_NP,              KC.ESC,            KC.SPC,            KC.TAB,            KC.ENT,            KC.BSPC,           KC.DEL,            U_NP,              U_NP
 
@@ -348,10 +348,10 @@ U_NA,              KC.RALT,           U_DF(U_NAV),       U_DF(U_NUM),       U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              KC.MINS,           KC.N0,             KC.DOT,            U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NUM \
-KC.LBRC,           KC.N7,             KC.N8,             KC.N9,             KC.RBRC,           U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_BOOT,            \
-KC.SCLN,           KC.N4,             KC.N5,             KC.N6,             KC.EQL,            U_NA,              KC.LSFT,           KC.LCTL,           KC.LALT,           KC.LGUI,           \
-KC.GRV,            KC.N1,             KC.N2,             KC.N3,             KC.BSLS,           U_NA,              U_DF(U_NUM),       U_DF(U_NAV),       KC.RALT,           U_NA,              \
-U_NP,              U_NP,              KC.DOT,            KC.N0,             KC.MINS,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+U_NP,              KC.N7,             KC.N8,             KC.N9,             KC.DV_PLUS,        U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_BOOT,            \
+KC.DV_BSLS,        KC.N4,             KC.N5,             KC.N6,             KC.DV_EQL,         U_NA,              KC.LSFT,           KC.LCTL,           KC.LALT,           KC.LGUI,           \
+KC.DV_GRV,         KC.N1,             KC.N2,             KC.N3,             KC.DV_SLSH,        U_NA,              U_DF(U_NUM),       U_DF(U_NAV),       KC.RALT,           U_NA,              \
+U_NP,              U_NP,              KC.DV_DOT,         KC.N0,             KC.DV_MINS,        U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 
 #define MIRYOKU_ALTERNATIVES_SYM_FLIP \
@@ -361,10 +361,10 @@ U_NA,              KC.RALT,           U_DF(U_MOUSE),     U_DF(U_SYM),       U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              KC.UNDS,           KC.LPRN,           KC.RPRN,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM \
-KC.LCBR,           KC.AMPR,           KC.ASTR,           KC.LPRN,           KC.RCBR,           U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_BOOT,            \
-KC.COLN,           KC.DLR,            KC.PERC,           KC.CIRC,           KC.PLUS,           U_NA,              KC.LSFT,           KC.LCTL,           KC.LALT,           KC.LGUI,           \
-KC.TILD,           KC.EXLM,           KC.AT,             KC.HASH,           KC.PIPE,           U_NA,              U_DF(U_SYM),       U_DF(U_MOUSE),     KC.RALT,           U_NA,              \
-U_NP,              U_NP,              KC.LPRN,           KC.RPRN,           KC.UNDS,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+KC.DV_CIRC,        KC.DV_AMPR,        KC.DV_ASTR,        KC.DV_LCBR,        KC.DV_RCBR,        U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_BOOT,            \
+KC.DV_PIPE,        KC.DV_DLR,         KC.DV_PERC,        KC.DV_LBRC,        KC.DV_RBRC,        U_NA,              KC.LSFT,           KC.LCTL,           KC.LALT,           KC.LGUI,           \
+KC.DV_TILD,        KC.DV_EXLM,        KC.DV_AT,          KC.DV_HASH,        KC.DV_QUES,        U_NA,              U_DF(U_SYM),       U_DF(U_MOUSE),     KC.RALT,           U_NA,              \
+U_NP,              U_NP,              KC.DV_LPRN,        KC.DV_RPRN,        KC.DV_UNDS,        U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 
 #define MIRYOKU_ALTERNATIVES_FUN_FLIP \

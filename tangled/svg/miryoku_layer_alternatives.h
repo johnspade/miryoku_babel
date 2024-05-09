@@ -56,7 +56,7 @@ U_NP,              U_NP,              U_LT("Delete", U_FUN),U_LT("Back Space", U
 
 #define MIRYOKU_ALTERNATIVES_BASE_QWERTY_FLIP \
 "Q",               "W",               "E",               "R",               "T",               "Y",               "U",               "I",               "O",               "P",               \
-U_MT("A", "Meta"), U_MT("S", "Alt"),  U_MT("D", "Ctrl"), U_MT("F", "Shift"),"G",               "H",               U_MT("J", "Shift"),U_MT("K", "Ctrl"), U_MT("L", "Alt"),  U_SMT("\"", "'", "Meta"),\
+U_MT("A", "Meta"), U_MT("S", "Alt"),  U_MT("D", "Ctrl"), U_MT("F", "Shift"),"G",               "H",               U_MT("J", "Shift"),U_MT("K", "Ctrl"), U_MT("L", "Alt"),  U_MT(":", "Meta"), \
 U_LT("Z", U_BUTTON),U_MT("X", "AltGr"),"C",               "V",               "B",               "N",               "M",               U_S("<", "S_COMM"),U_SMT(">", ".", "AltGr"),U_SLT("?", "/", U_BUTTON),\
 U_NP,              U_NP,              U_LT("Delete", U_FUN),U_LT("Back Space", U_NUM),U_LT("Enter", U_SYM),U_LT("Tab", U_MOUSE),U_LT("Space", U_NAV),U_LT("Esc", U_MEDIA),U_NP,              U_NP
 
@@ -116,7 +116,7 @@ U_NP,              U_NP,              U_LT("Esc", U_MEDIA),U_LT("Space", U_NAV),
 
 #define MIRYOKU_ALTERNATIVES_BASE_QWERTY \
 "Q",               "W",               "E",               "R",               "T",               "Y",               "U",               "I",               "O",               "P",               \
-U_MT("A", "Meta"), U_MT("S", "Alt"),  U_MT("D", "Ctrl"), U_MT("F", "Shift"),"G",               "H",               U_MT("J", "Shift"),U_MT("K", "Ctrl"), U_MT("L", "Alt"),  U_SMT("\"", "'", "Meta"),\
+U_MT("A", "Meta"), U_MT("S", "Alt"),  U_MT("D", "Ctrl"), U_MT("F", "Shift"),"G",               "H",               U_MT("J", "Shift"),U_MT("K", "Ctrl"), U_MT("L", "Alt"),  U_MT(":", "Meta"), \
 U_LT("Z", U_BUTTON),U_MT("X", "AltGr"),"C",               "V",               "B",               "N",               "M",               U_S("<", "S_COMM"),U_SMT(">", ".", "AltGr"),U_SLT("?", "/", U_BUTTON),\
 U_NP,              U_NP,              U_LT("Esc", U_MEDIA),U_LT("Space", U_NAV),U_LT("Tab", U_MOUSE),U_LT("Enter", U_SYM),U_LT("Back Space", U_NUM),U_LT("Delete", U_FUN),U_NP,              U_NP
 
@@ -177,7 +177,7 @@ U_NP,              U_NP,              "Delete",          "Back Space",      "Ent
 
 #define MIRYOKU_ALTERNATIVES_TAP_QWERTY_FLIP \
 "Q",               "W",               "E",               "R",               "T",               "Y",               "U",               "I",               "O",               "P",               \
-"A",               "S",               "D",               "F",               "G",               "H",               "J",               "K",               "L",               "'",               \
+"A",               "S",               "D",               "F",               "G",               "H",               "J",               "K",               "L",               ":",               \
 "Z",               "X",               "C",               "V",               "B",               "N",               "M",               "S_COMM",          ".",               "/",               \
 U_NP,              U_NP,              "Delete",          "Back Space",      "Enter",           "Tab",             "Space",           "Esc",             U_NP,              U_NP
 
@@ -237,7 +237,7 @@ U_NP,              U_NP,              "Esc",             "Space",           "Tab
 
 #define MIRYOKU_ALTERNATIVES_TAP_QWERTY \
 "Q",               "W",               "E",               "R",               "T",               "Y",               "U",               "I",               "O",               "P",               \
-"A",               "S",               "D",               "F",               "G",               "H",               "J",               "K",               "L",               "'",               \
+"A",               "S",               "D",               "F",               "G",               "H",               "J",               "K",               "L",               ":",               \
 "Z",               "X",               "C",               "V",               "B",               "N",               "M",               "S_COMM",          ".",               "/",               \
 U_NP,              U_NP,              "Esc",             "Space",           "Tab",             "Enter",           "Back Space",      "Delete",          U_NP,              U_NP
 
@@ -348,10 +348,10 @@ U_NA,              "AltGr",           U_DF(U_NAV),       U_DF(U_NUM),       U_NA
 U_NP,              U_NP,              U_NA,              U_HELD(U_NA),      U_NA,              U_S("_", "-"),     U_S("S_RPRN", "0"),U_S(">", "."),     U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NUM \
-U_S("{", "["),     U_S("&", "7"),     U_S("*", "8"),     U_S("S_LPRN", "9"),U_S("}", "]"),     U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_BOOT,            \
-U_S(":", ";"),     U_S("$", "4"),     U_S("%", "5"),     U_S("^", "6"),     U_S("+", "="),     U_NA,              "Shift",           "Ctrl",            "Alt",             "Meta",            \
-U_S("~", "`"),     U_S("!", "1"),     U_S("@", "2"),     U_S("#", "3"),     U_S("S_PIPE", "\\"),U_NA,              U_DF(U_NUM),       U_DF(U_NAV),       "AltGr",           U_NA,              \
-U_NP,              U_NP,              U_S(">", "."),     U_S("S_RPRN", "0"),U_S("_", "-"),     U_NA,              U_HELD(U_NA),      U_NA,              U_NP,              U_NP
+U_NP,              U_S("&", "7"),     U_S("*", "8"),     U_S("S_LPRN", "9"),"DV_PLUS",         U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_BOOT,            \
+"DV_BSLS",         U_S("$", "4"),     U_S("%", "5"),     U_S("^", "6"),     "DV_EQL",          U_NA,              "Shift",           "Ctrl",            "Alt",             "Meta",            \
+"DV_GRV",          U_S("!", "1"),     U_S("@", "2"),     U_S("#", "3"),     "DV_SLSH",         U_NA,              U_DF(U_NUM),       U_DF(U_NAV),       "AltGr",           U_NA,              \
+U_NP,              U_NP,              "DV_DOT",          U_S("S_RPRN", "0"),"DV_MINS",         U_NA,              U_HELD(U_NA),      U_NA,              U_NP,              U_NP
 
 
 #define MIRYOKU_ALTERNATIVES_SYM_FLIP \
@@ -361,10 +361,10 @@ U_NA,              "AltGr",           U_DF(U_MOUSE),     U_DF(U_SYM),       U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_HELD(U_NA),      "_",               "S_LPRN",          "S_RPRN",          U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM \
-"{",               "&",               "*",               "S_LPRN",          "}",               U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_BOOT,            \
-":",               "$",               "%",               "^",               "+",               U_NA,              "Shift",           "Ctrl",            "Alt",             "Meta",            \
-"~",               "!",               "@",               "#",               "S_PIPE",          U_NA,              U_DF(U_SYM),       U_DF(U_MOUSE),     "AltGr",           U_NA,              \
-U_NP,              U_NP,              "S_LPRN",          "S_RPRN",          "_",               U_HELD(U_NA),      U_NA,              U_NA,              U_NP,              U_NP
+"DV_CIRC",         "DV_AMPR",         "DV_ASTR",         "DV_LCBR",         "DV_RCBR",         U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_BOOT,            \
+"DV_PIPE",         "DV_DLR",          "DV_PERC",         "DV_LBRC",         "DV_RBRC",         U_NA,              "Shift",           "Ctrl",            "Alt",             "Meta",            \
+"DV_TILD",         "DV_EXLM",         "DV_AT",           "DV_HASH",         "DV_QUES",         U_NA,              U_DF(U_SYM),       U_DF(U_MOUSE),     "AltGr",           U_NA,              \
+U_NP,              U_NP,              "DV_LPRN",         "DV_RPRN",         "DV_UNDS",         U_HELD(U_NA),      U_NA,              U_NA,              U_NP,              U_NP
 
 
 #define MIRYOKU_ALTERNATIVES_FUN_FLIP \

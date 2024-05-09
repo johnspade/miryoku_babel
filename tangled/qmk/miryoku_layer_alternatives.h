@@ -350,9 +350,9 @@ U_NA,              KC_ALGR,           TD(U_TD_U_NAV),    TD(U_TD_U_NUM),    U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              KC_MINS,           KC_0,              KC_DOT,            U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NUM \
-U_NP,              KC_7,              KC_8,              KC_9,              DV_PLUS,           U_NA,              DF(U_BASE),        DF(U_EXTRA),       DF(U_TAP),         RESET,             \
+U_NP,              KC_7,              KC_8,              KC_9,              DV_PLUS,           U_NA,              TD(U_TD_U_BASE),   TD(U_TD_U_EXTRA),  TD(U_TD_U_TAP),    TD(U_TD_BOOT),     \
 DV_BSLS,           KC_4,              KC_5,              KC_6,              DV_EQL,            U_NA,              KC_LSFT,           KC_LCTL,           KC_LALT,           KC_LGUI,           \
-DV_GRV,            KC_1,              KC_2,              KC_3,              DV_SLSH,           U_NA,              DF(U_NUM),         DF(U_NAV),         KC_ALGR,           U_NA,              \
+DV_GRV,            KC_1,              KC_2,              KC_3,              DV_SLSH,           U_NA,              TD(U_TD_U_NUM),    TD(U_TD_U_NAV),    KC_ALGR,           U_NA,              \
 U_NP,              U_NP,              DV_DOT,            KC_0,              DV_MINS,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 
@@ -363,9 +363,9 @@ U_NA,              KC_ALGR,           TD(U_TD_U_MOUSE),  TD(U_TD_U_SYM),    U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              KC_UNDS,           KC_LPRN,           KC_RPRN,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM \
-DV_CIRC,           DV_AMPR,           DV_ASTR,           DV_LCBR,           DV_RCBR,           U_NA,              DF(U_BASE),        DF(U_EXTRA),       DF(U_TAP),         RESET,             \
+DV_CIRC,           DV_AMPR,           DV_ASTR,           DV_LCBR,           DV_RCBR,           U_NA,              TD(U_TD_U_BASE),   TD(U_TD_U_EXTRA),  TD(U_TD_U_TAP),    TD(U_TD_BOOT),     \
 DV_PIPE,           DV_DLR,            DV_PERC,           DV_LBRC,           DV_RBRC,           U_NA,              KC_LSFT,           KC_LCTL,           KC_LALT,           KC_LGUI,           \
-DV_TILD,           DV_EXLM,           DV_AT,             DV_HASH,           DV_QUES,           U_NA,              DF(U_SYM),         DF(U_MOUSE),       KC_ALGR,           U_NA,              \
+DV_TILD,           DV_EXLM,           DV_AT,             DV_HASH,           DV_QUES,           U_NA,              TD(U_TD_U_SYM),    TD(U_TD_U_MOUSE),  KC_ALGR,           U_NA,              \
 U_NP,              U_NP,              DV_LPRN,           DV_RPRN,           DV_UNDS,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 
