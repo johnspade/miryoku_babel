@@ -348,10 +348,10 @@ U_NA,              "AltGr",           U_DF(U_NAV),       U_DF(U_NUM),       U_NA
 U_NP,              U_NP,              U_NA,              U_HELD(U_NA),      U_NA,              U_S("_", "-"),     U_S("S_RPRN", "0"),U_S(">", "."),     U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NUM \
-U_NP,              U_S("&", "7"),     U_S("*", "8"),     U_S("S_LPRN", "9"),"DV_PLUS",         U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_BOOT,            \
-"DV_BSLS",         U_S("$", "4"),     U_S("%", "5"),     U_S("^", "6"),     "DV_EQL",          U_NA,              "Shift",           "Ctrl",            "Alt",             "Meta",            \
-"DV_GRV",          U_S("!", "1"),     U_S("@", "2"),     U_S("#", "3"),     "DV_SLSH",         U_NA,              U_DF(U_NUM),       U_DF(U_NAV),       "AltGr",           U_NA,              \
-U_NP,              U_NP,              "DV_DOT",          U_S("S_RPRN", "0"),"DV_MINS",         U_NA,              U_HELD(U_NA),      U_NA,              U_NP,              U_NP
+U_S("S_PIPE", "\\"),U_S("&", "7"),     U_S("*", "8"),     U_S("S_LPRN", "9"),U_S("_", "-"),     U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_BOOT,            \
+U_S("}", "]"),     U_S("$", "4"),     U_S("%", "5"),     U_S("^", "6"),     U_S("+", "="),     U_NA,              "Shift",           "Ctrl",            "Alt",             "Meta",            \
+U_S("~", "`"),     U_S("!", "1"),     U_S("@", "2"),     U_S("#", "3"),     U_S("{", "["),     U_NA,              U_DF(U_NUM),       U_DF(U_NAV),       "AltGr",           U_NA,              \
+U_NP,              U_NP,              "E",               U_S("S_RPRN", "0"),U_S("\"", "'"),    U_NA,              U_HELD(U_NA),      U_NA,              U_NP,              U_NP
 
 
 #define MIRYOKU_ALTERNATIVES_SYM_FLIP \
@@ -361,10 +361,10 @@ U_NA,              "AltGr",           U_DF(U_MOUSE),     U_DF(U_SYM),       U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_HELD(U_NA),      "_",               "S_LPRN",          "S_RPRN",          U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM \
-"DV_CIRC",         "DV_AMPR",         "DV_ASTR",         "DV_LCBR",         "DV_RCBR",         U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_BOOT,            \
-"DV_PIPE",         "DV_DLR",          "DV_PERC",         "DV_LBRC",         "DV_RBRC",         U_NA,              "Shift",           "Ctrl",            "Alt",             "Meta",            \
-"DV_TILD",         "DV_EXLM",         "DV_AT",           "DV_HASH",         "DV_QUES",         U_NA,              U_DF(U_SYM),       U_DF(U_MOUSE),     "AltGr",           U_NA,              \
-U_NP,              U_NP,              "DV_LPRN",         "DV_RPRN",         "DV_UNDS",         U_HELD(U_NA),      U_NA,              U_NA,              U_NP,              U_NP
+"S_PIPE",          "&",               "*",               "S_LPRN",          "_",               U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_BOOT,            \
+"}",               "$",               "%",               "^",               "+",               U_NA,              "Shift",           "Ctrl",            "Alt",             "Meta",            \
+"~",               "!",               "@",               "#",               "{",               U_NA,              U_DF(U_SYM),       U_DF(U_MOUSE),     "AltGr",           U_NA,              \
+U_NP,              U_NP,              "S_LPRN",          "S_RPRN",          "\"",              U_HELD(U_NA),      U_NA,              U_NA,              U_NP,              U_NP
 
 
 #define MIRYOKU_ALTERNATIVES_FUN_FLIP \

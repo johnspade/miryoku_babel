@@ -348,10 +348,10 @@ U_NA,              ralt,              U_DF(U_NAV),       U_DF(U_NUM),       U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              -,                 0,                 .,                 U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NUM \
-U_NP,              7,                 8,                 9,                 DV_PLUS,           U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_NA,              \
-DV_BSLS,           4,                 5,                 6,                 DV_EQL,            U_NA,              sft,               ctl,               alt,               met,               \
-DV_GRV,            1,                 2,                 3,                 DV_SLSH,           U_NA,              U_DF(U_NUM),       U_DF(U_NAV),       ralt,              U_NA,              \
-U_NP,              U_NP,              DV_DOT,            0,                 DV_MINS,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+\\,                7,                 8,                 9,                 -,                 U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_NA,              \
+],                 4,                 5,                 6,                 =,                 U_NA,              sft,               ctl,               alt,               met,               \
+`,                 1,                 2,                 3,                 [,                 U_NA,              U_DF(U_NUM),       U_DF(U_NAV),       ralt,              U_NA,              \
+U_NP,              U_NP,              e,                 0,                 U_QUOT,            U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 
 #define MIRYOKU_ALTERNATIVES_SYM_FLIP \
@@ -361,10 +361,10 @@ U_NA,              ralt,              U_DF(U_MOUSE),     U_DF(U_SYM),       U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              \_,                U_LPRN,            U_RPRN,            U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM \
-DV_CIRC,           DV_AMPR,           DV_ASTR,           DV_LCBR,           DV_RCBR,           U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_NA,              \
-DV_PIPE,           DV_DLR,            DV_PERC,           DV_LBRC,           DV_RBRC,           U_NA,              sft,               ctl,               alt,               met,               \
-DV_TILD,           DV_EXLM,           DV_AT,             DV_HASH,           DV_QUES,           U_NA,              U_DF(U_SYM),       U_DF(U_MOUSE),     ralt,              U_NA,              \
-U_NP,              U_NP,              DV_LPRN,           DV_RPRN,           DV_UNDS,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+U_PIPE,            &,                 *,                 U_LPRN,            \_,                U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_NA,              \
+},                 $,                 %,                 ^,                 +,                 U_NA,              sft,               ctl,               alt,               met,               \
+~,                 !,                 @,                 #,                 {,                 U_NA,              U_DF(U_SYM),       U_DF(U_MOUSE),     ralt,              U_NA,              \
+U_NP,              U_NP,              U_LPRN,            U_RPRN,            U_DQUO,            U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 
 #define MIRYOKU_ALTERNATIVES_FUN_FLIP \

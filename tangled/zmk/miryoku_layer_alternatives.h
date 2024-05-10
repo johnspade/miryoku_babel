@@ -348,10 +348,10 @@ U_NA,              &kp RALT,          &u_to_U_NAV,       &u_to_U_NUM,       U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp MINUS,         &kp N0,            &kp DOT,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NUM \
-U_NP,              &kp N7,            &kp N8,            &kp N9,            &kp DV_PLUS,       U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
-&kp DV_BSLS,       &kp N4,            &kp N5,            &kp N6,            &kp DV_EQL,        U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-&kp DV_GRV,        &kp N1,            &kp N2,            &kp N3,            &kp DV_SLSH,       U_NA,              &u_to_U_NUM,       &u_to_U_NAV,       &kp RALT,          U_NA,              \
-U_NP,              U_NP,              &kp DV_DOT,        &kp N0,            &kp DV_MINS,       U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+&kp BSLH,          &kp N7,            &kp N8,            &kp N9,            &kp MINUS,         U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
+&kp RBKT,          &kp N4,            &kp N5,            &kp N6,            &kp EQUAL,         U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&kp GRAVE,         &kp N1,            &kp N2,            &kp N3,            &kp LBKT,          U_NA,              &u_to_U_NUM,       &u_to_U_NAV,       &kp RALT,          U_NA,              \
+U_NP,              U_NP,              &kp E,             &kp N0,            &kp SQT,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 
 #define MIRYOKU_ALTERNATIVES_SYM_FLIP \
@@ -361,10 +361,10 @@ U_NA,              &kp RALT,          &u_to_U_MOUSE,     &u_to_U_SYM,       U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp UNDER,         &kp LPAR,          &kp RPAR,          U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM \
-&kp DV_CIRC,       &kp DV_AMPR,       &kp DV_ASTR,       &kp DV_LCBR,       &kp DV_RCBR,       U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
-&kp DV_PIPE,       &kp DV_DLR,        &kp DV_PERC,       &kp DV_LBRC,       &kp DV_RBRC,       U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-&kp DV_TILD,       &kp DV_EXLM,       &kp DV_AT,         &kp DV_HASH,       &kp DV_QUES,       U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
-U_NP,              U_NP,              &kp DV_LPRN,       &kp DV_RPRN,       &kp DV_UNDS,       U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+&kp PIPE,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp UNDER,         U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
+&kp RBRC,          &kp DLLR,          &kp PRCNT,         &kp CARET,         &kp PLUS,          U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&kp TILDE,         &kp EXCL,          &kp AT,            &kp HASH,          &kp LBRC,          U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
+U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp DQT,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 
 #define MIRYOKU_ALTERNATIVES_FUN_FLIP \
