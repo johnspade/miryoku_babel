@@ -158,10 +158,10 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 *** Sym
 
 #+NAME: sym-l
-| PIPE | &    | * | ( | _ |
-| }    | $    | % | ^ | + |
-| ~    | !    | @ | # | { |
-| U_NP | U_NP | ( | ) | " |
+| PIPE | &    | * | ( | _    |
+| }    | $    | % | ^ | +    |
+| ~    | !    | @ | # | {    |
+| U_NP | U_NP | ( | ) | DQUO |
 
 
 *** Fun
@@ -1387,7 +1387,7 @@ Keycodes that match any of these prefixes will not have ~KC_~ automatically
 prepended.
 
 #+NAME: nonkc
-| U_ | RGB_ | OU_  | QK_ | S( | C( | SCMD( | LCMD( | TD( | CW_TOGG | DV_
+| U_ | RGB_ | OU_  | QK_ | S( | C( | SCMD( | LCMD( | TD( | CW_TOGG
 
 
 **** license-qmk
