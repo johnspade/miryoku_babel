@@ -149,19 +149,19 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 *** Num
 
 #+NAME: num-l
-| U_NP    | 7      | 8        | 9      | DV_PLUS |
-| DV_BSLS | 4      | 5        | 6      | DV_EQL  |
-| DV_GRV  | 1      | 2        | 3      | DV_SLSH |
-| U_NP    | U_NP   | DV_DOT   | 0      | DV_MINS |
+| \    | 7    | 8    | 9    | MINS |
+| ]    | 4    | 5    | 6    | =    |
+| `    | 1    | 2    | 3    | [    |
+| U_NP | U_NP | E    | 0    | '    |
 
 
 *** Sym
 
 #+NAME: sym-l
-| DV_CIRC | DV_AMPR | DV_ASTR | DV_LCBR | DV_RCBR |
-| DV_PIPE | DV_DLR  | DV_PERC | DV_LBRC | DV_RBRC |
-| DV_TILD | DV_EXLM | DV_AT   | DV_HASH | DV_QUES |
-| U_NP    | U_NP    | DV_LPRN | DV_RPRN | DV_UNDS |
+| PIPE | &    | * | ( | _ |
+| }    | $    | % | ^ | + |
+| ~    | !    | @ | # | { |
+| U_NP | U_NP | ( | ) | " |
 
 
 *** Fun
